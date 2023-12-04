@@ -206,8 +206,8 @@ public class InterviewPrograms {
         System.out.println(s);*/
 
         //compare two strings with equals and compare keywords
-       /* String s1="dhana";
-        String s2="Dhana";
+        /*String s1="dhana";
+        String s2="shana";
         System.out.println(s1.equals(s2));
         System.out.println(s1.compareTo(s2));*/
 
@@ -592,6 +592,24 @@ public class InterviewPrograms {
             }
 
         }*/
+/*        String s = " dhana  lucky ma ";
+        String s1=s.trim();
+        String[] words = s1.split("\\s+");//\s nothing but delimiter, it will remove one or more spaces in between strings
+        int wordCount = words.length;
+        System.out.println("Word count: " + wordCount); // Output: Word count: 3*/
+
+        /*ArrayList<String> a=new ArrayList<String>(Collections.nCopies(5, "dhana"));
+        System.out.println(a);*/
+        /*String s="dhana";
+        ArrayList a =new ArrayList();
+
+        for(int i=1;i<=5;i++)
+        {
+          a.add(s);
+        }
+        System.out.println(a);
+*/
+
 
 
 

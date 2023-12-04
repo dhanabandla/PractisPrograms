@@ -11,13 +11,12 @@ public class MethodHiddingChild extends MethodHodding
 
     public static void main(String[] args) {
         MethodHiddingChild m=new MethodHiddingChild();
-        /*m.m1();
+        m.m1();
         m.m2();
-        m.m3();*/
+        m.m3();
        MethodHodding m1=new MethodHiddingChild();
         m.m1();
         m.m2();
         m.m3();
-
     }
 }

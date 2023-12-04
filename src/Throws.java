@@ -1,7 +1,4 @@
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
-public class ThrowsAndThrow {
+public class Throws {
 
     public void division(int i) throws ArithmeticException,NullPointerException
     {
@@ -12,8 +9,14 @@ public class ThrowsAndThrow {
 
     }
     public static void main(String[] args) {
-        ThrowsAndThrow t=new ThrowsAndThrow();
-        t.division(-3);
+        Throws t=new Throws();
+        try {
+            t.division(-3);
+        }
+        catch (Exception e)
+        {
+            System.out.println(e);
+        }
         System.out.println("throw and throws exceptions");
 
     }

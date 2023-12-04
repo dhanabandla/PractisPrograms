@@ -21,19 +21,18 @@ public class ChildClass extends ParentClass
         c.step2();*/
 
         //runtime polymorphism (or) dynamic polymorphism (or) topcasting
-        ParentClass c1=new ChildClass();//child class object can be referred by parent reference variable
+     /*   ParentClass c1=new ChildClass();//child class object can be referred by parent reference variable
         c1.step1();
-        c1.step2();
+        c1.step2();*/
+
 
 
         //DownCasting--->while compiling it is ok but in runtime it through classcast exception
-        /*ChildClass c2=(ChildClass) new ParentClass();
-        c2.step2();
+        //ChildClass c2=(ChildClass) new ParentClass();
+        /*c2.step2();
         c2.step1();
-        c2.step3();*/
-
-
-
+        c2.step3();
+*/
 
 
 
