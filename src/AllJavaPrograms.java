@@ -128,6 +128,23 @@ while(n>0) {
     n = n / 10;
 }
         System.out.println(rev);*//*
+        or
+
+        int number = 12345;
+        String numberString = Integer.toString(number);
+
+        // Step 2: Convert the string to a StringBuilder
+        StringBuilder reversedStringBuilder = new StringBuilder(numberString);
+
+        // Step 3: Use the reverse method
+        reversedStringBuilder.reverse();
+
+        // Step 4: Convert the reversed string back to an integer
+        int reversedNumber = Integer.parseInt(reversedStringBuilder.toString());
+
+        // Print the original and reversed numbers
+        System.out.println("Original Number: " + number);
+        System.out.println("Reversed Number: " + reversedNumber);
 
 
 //reversea number using string buffer
@@ -653,26 +670,26 @@ String result=first+" "+last;
 //count the words in given string if having more spaces
 
 */
-/*String s="today  is friday";
-String s1[]=s.split("  ");
-int count=0;
-        for(int i=0;i<s1.length;i++)
-        {
-            if(!(s1[i].trim().equals("")))
+    /*String s="today  is friday";
+    String s1[]=s.split("  ");
+    int count=0;
+            for(int i=0;i<s1.length;i++)
             {
-                count++;
+                if(!(s1[i].trim().equals("")))
+                {
+                    count++;
+                }
             }
-        }
-        System.out.println(count);
-        //or
-        for(int i=0;i<s1.length;i++)
-        {
-            if(!(s1[i].replace(" ","").equals("")))
+            System.out.println(count);
+            //or
+            for(int i=0;i<s1.length;i++)
             {
-                count++;
+                if(!(s1[i].replace(" ","").equals("")))
+                {
+                    count++;
+                }
             }
-        }
-        System.out.println(count);*//*
+            System.out.println(count);*//*
 
 
  //find missing number in given array list

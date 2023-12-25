@@ -23,6 +23,9 @@ public class ArraylistProgarm {
 
             }
         }*/
+       /* String s="your password is 'QapitalQA', do not't share to any one";
+        String s1=s.replace("'QapitalQA',","QapitalQA");
+        System.out.println(s1);*/
 
     }
 }

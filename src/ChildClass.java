@@ -17,12 +17,12 @@ public class ChildClass extends ParentClass
         c.step3();*/
 
         /*ParentClass c=new ParentClass();
-        c.step1();
+        c.step1();//
         c.step2();*/
 
         //runtime polymorphism (or) dynamic polymorphism (or) topcasting
      /*   ParentClass c1=new ChildClass();//child class object can be referred by parent reference variable
-        c1.step1();
+        c1.step1();//override
         c1.step2();*/
 
 
